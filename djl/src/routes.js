@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Route, withRouter, Switch } from 'react-router-dom';
-import BaseContainer from './containers/BaseContainer.js';
+import BaseContainer from './BaseContainer.js';
 import ErrorRoute from './components/ErrorRoute.js';
 
 class Routes extends Component {
