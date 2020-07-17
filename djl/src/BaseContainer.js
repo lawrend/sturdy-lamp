@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import IngredientsCheckerHome from './containers/checker/IngredientsCheckerHome.js';
+import { Link } from 'react-router-dom';
 
 export default class BaseContainer extends Component {
   render() {
@@ -12,6 +14,7 @@ export default class BaseContainer extends Component {
           <li>transfer components</li>
           <li>ASYNC API CALLS</li>
         </uo>
+        <Link to='/checker'>Let's check this</Link>
       </div>
     );
   }
