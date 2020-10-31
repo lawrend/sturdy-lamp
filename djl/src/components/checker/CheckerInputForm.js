@@ -9,7 +9,7 @@ export default props => (
 
           <label className='checker-input-label'><h2>INGREDIENTS TO CHECK</h2></label>
 
-          <button type="submit" id="hidden-results-button">
+          <button type="submit" id="hidden-results-button" hidden="true">
           </button>
 
           <input className='checker-input-field' placeholder="paste here" onChange={props.handleChange} />
